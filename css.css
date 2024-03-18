@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'fontebase';
+    src: url(fonts/Exo-VariableFont_wght.ttf);
+}
+
+body {
+    background-color: rgba(8, 8, 8);
+    color: white;
+    background-image: url(imgs/logo_bcg.png);
+    background-size: 30px;
+    overflow: hidden;
+    zoom: 75%;
+    user-select: none;
+}
+
+.maincontent {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(imgs/arches.png);
+}
+
+.contentwrapper {
+    background-color: rgba(110, 0, 0, 0.65);
+    border-top: 1px solid rgb(103, 1, 1);
+    border-bottom: 1px solid rgb(103, 1, 1);
+    width: 99%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    text-wrap:nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content:center;
+    font-family: fontebase;
+    box-shadow: 3px 0px 39px 0px rgba(255, 0, 0, 0.269);
+}
+
+.fontebase {
+    font-family: fontebase;
+}
+
+.contentwrapper p {
+    margin: 10px;
+}
+
+hr {
+    width: 1042px;
+}
+
+a {
+    color: white;
+    transition-duration: 0.2s;
+}
+
+a:hover {
+    font-size: 17px;
+}
+
+.sodakli_girando {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: auto;
+    bottom: 110%;
+
+}
